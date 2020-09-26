@@ -1,0 +1,105 @@
+.MobileSearch-container {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+width: 100vw;
+min-height: calc(100vh - 53px);
+display: flex;
+-webkit-box-align: start;
+align-items: flex-start;
+position: relative;
+color: #121212;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+background: #fff;
+}
+.MobileHotSearch-container {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+margin: 0 12px 14px;
+padding-top: 14px;
+}
+.MobileHotSearch-title {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+margin: 0;
+color: #121212;
+font-size: 16px;
+font-weight: 500;
+}
+.MobileHotSearch-list {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+margin-top: 17px;
+display: flex;
+flex-wrap: wrap;
+border-bottom: 1px solid #f6f6f6;
+}
+.MobileHotSearch-item {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+margin-bottom: 20px;
+width: calc((100vw - 24px)/2);
+display: flex;
+}
+.MobileHotSearch-itemIndex {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+margin: 0;
+font-size: 15px;
+width: 18px;
+height: 18px;
+/* color: #ff942d; */
+color: #bfbfbf;
+}
+.MobileHotSearch-itemSpecialIndex {
+  color: #ff942d;
+}
+.MobileHotSearch-itemText {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+margin-left: 5px;
+}
+.MobileHotSearch-itemTitle {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+margin: 0;
+font-size: 15px;
+color: #121212;
+} 
+.MobileHotSearch-itemDesc {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+margin: 0;
+font-size: 13px;
+color: #999;
+margin-top: 6px;
+}
+.more-topsearch {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+color: #0084ff;
+font-size: 14px;
+margin: 0 auto 12px;
+}
