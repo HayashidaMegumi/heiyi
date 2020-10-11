@@ -12,6 +12,49 @@
 
   <title>Hello, world!</title>
   <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="result.css">
+  <style>
+    .navbar {
+      /* border-style: solid; */
+      border-bottom: 1px solid rgba(18, 18, 18, .06);
+      box-shadow: 0 0px 0px 0 rgba(23, 81, 153, 0);
+      background-color: #fff;
+      background-clip: content-box;
+      min-width: 100%;
+      /* height: 52px; */
+      /* line-height: 50px; */
+      /* padding: 0; */
+      padding: .2rem 1rem;
+      display: flex;
+      align-items: center;
+      z-index: 100;
+    }
+    .search-box {
+      font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+      -webkit-tap-highlight-color: rgba(18, 18, 18, 0);
+      -webkit-font-smoothing: subpixel-antialiased;
+      line-height: 50px;
+      position: relative;
+      padding: 4px 10px;
+      background: #fff;
+      border: 1px solid #8590a6;
+      box-sizing: border-box;
+      transition: background .2s, border .2s;
+      background-color: #fff;
+      border-radius: 16px;
+      height: 32px;
+      color: #999;
+      width: calc(100% - 165px);
+      margin: 0 0px;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      font-size: 15px;
+      padding-right: 0;
+    }
+  </style>
 </head>
 
 <body>
@@ -30,154 +73,152 @@
           d="M17.068 15.58a8.377 8.377 0 0 0 1.774-5.159 8.421 8.421 0 1 0-8.42 8.421 8.38 8.38 0 0 0 5.158-1.774l3.879 3.88c.957.573 2.131-.464 1.488-1.49l-3.879-3.878zm-6.647 1.157a6.323 6.323 0 0 1-6.316-6.316 6.323 6.323 0 0 1 6.316-6.316 6.323 6.323 0 0 1 6.316 6.316 6.323 6.323 0 0 1-6.316 6.316z"
           fill-rule="evenodd"></path>
       </svg>
-      <input disabled="true" type="search" class="Input" placeholder="张小龙小号致歉为" value="">
+      <input type="search" class="Input" placeholder="" value="">
 
     </div>
-    <a class="MobileAppHeader-downloadLink" href="#" data-za-detail-view-name="下载 App">下载 App</a>
-    <div style="height: 16px; border-left: solid rgba(18, 18, 18, .06) 1px;"></div>
-    <div class="MobileAppHeader-navItem MobileAppHeader-moreIconWrapper"><span class="MobileAppHeader-expandBtn"><svg
-          class="Zi Zi--More" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
-          <path
-            d="M3.5 5h16a1.5 1.5 0 0 1 0 3h-16a1.5 1.5 0 0 1 0-3zm0 6h16a1.5 1.5 0 0 1 0 3h-16a1.5 1.5 0 0 1 0-3zm0 6h16a1.5 1.5 0 0 1 0 3h-16a1.5 1.5 0 0 1 0-3z"
-            fill-rule="evenodd"></path>
-        </svg></span></div>
+    <a class="MobileAppHeader-downloadLink" href="#" data-za-detail-view-name="下载 App">取消</a>
+
 
   </nav>
-<div style="background-color: #F6F6F6;">
+  <div style="background-color: #F6F6F6; min-height: 100vh;">
+    <div class="SearchTabs SearchTab-bottomShadow" data-za-detail-view-path-module="SearchSwitchTabBar"
+      data-za-extra-module="{}">
+      <div class="SearchTabs-inner">
+        <div class="SearchTabs-actions">
+          <ul role="tablist" class="Tabs">
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-content"><div
+                data-za-detail-view-name="综合" class="Tabs-link is-active"
+                href="#">综合</div>
+            </li>
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-people"><div
+                data-za-detail-view-name="用户" class="Tabs-link"
+                href="#">用户</div>
+            </li>
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-topic"><div
+                data-za-detail-view-name="话题" class="Tabs-link"
+                href="#">话题</div>
+            </li>
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-column"><div
+                data-za-detail-view-name="专栏" class="Tabs-link"
+                href="#">专栏</div>
+            </li>
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-live"><div
+                data-za-detail-view-name="Live" class="Tabs-link"
+                href="#">Live</div>
+            </li>
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-album"><div
+                data-za-detail-view-name="盐选专栏" class="Tabs-link"
+                href="#">盐选专栏</div>
+            </li>
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-publication"><div
+                data-za-detail-view-name="电子书" class="Tabs-link"
+                href="#">电子书</div>
+            </li>
+            <li role="tab" class="Tabs-item Tabs-item--noMeta" aria-controls="Search-clubentity"><div
+                data-za-detail-view-name="圈子" class="Tabs-link"
+                href="#">圈子</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <div class="info-card">
-    <div class="Feed">
-      <div class="answeritem">
-        <h2 class="ContentItem-title">
-          <div itemprop="zhihu:question" itemtype="http://schema.org/Question" itemscope="">
-            <meta itemprop="url" content="https://www.zhihu.com/question/275651808">
-            <meta itemprop="name" content="应届毕业生考公务员好考吗？"><a target="_blank"
-              href="//www.zhihu.com/question/275651808/answer/1243537021" style="color: #121212;">应届毕业生考公务员好考吗？</a>
-          </div>
-        </h2>
-        <div class="RichContent is-collapsed">
-          <div class="RichContent-cover RichContent-cover--mobile">
-            <div class="RichContent-cover-inner"><img
-                src="https://pic4.zhimg.com/50/v2-1f40cfbef7071a370b3909bc250febfd_400x224.jpg" alt="cover"></div>
-          </div>
-          <div class="RichContent-inner"><span class="RichText ztext CopyrightRichText-richText" itemprop="text">径舟：
-              观点：相信题主应该知道今年公考扩招的事情，而且今年对于应届</span><button type="button" class="Button ContentItem-more Button--plain">App 内查看<span
-                style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--ArrowDown ContentItem-arrowIcon"
-                  fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
-                  <path
-                    d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z"
-                    fill-rule="evenodd"></path>
-                </svg></span></button></div>
-          <div class="ContentItem-actions"><span><button aria-label="赞同 394 " type="button"
-                class="Button VoteButton VoteButton--up"><span style="display: inline-flex; align-items: center;">​<svg
-                    class="Zi Zi--TriangleUp VoteButton-TriangleUp" fill="currentColor" viewBox="0 0 24 24" width="10"
-                    height="10">
+    <div style="margin-top: 10px;" class="Card SearchResult-Card SearchResult-CardWithImage" data-za-detail-view-path-module="PostItem"
+      data-za-detail-view-path-index="2"
+      data-za-extra-module="{&quot;card&quot;:{&quot;content&quot;:{&quot;type&quot;:&quot;Post&quot;,&quot;token&quot;:&quot;50068327&quot;}},&quot;attached_info_bytes&quot;:&quot;OngKC3BsYWNlaG9sZGVyEiBjZTk3MzNhMTY5N2ZiNzU0OWY0NjA1YzYxN2M3NjEyMBgHIggxMDE4NzgxNCoINTAwNjgzMjdKCeWJp+acrOadgFAAWAFgAZgBAKABHqgBALABAbgBANAB8LW53wXYAXrgAUyAAgG4AgA=&quot;}">
+      <div class="List-item" tabindex="0">
+        <div class="ContentItem ArticleItem" itemprop="article">
+          <h2 class="ContentItem-title"><a target="_blank" data-za-detail-view-id="3942"
+              href="#"><span class="Highlight"><em>剧本杀</em>：一个创业者的大坑</span></a></h2>
+          <div class="RichContent Highlight is-collapsed">
+            <div class="RichContent-inner"><span class="RichText ztext CopyrightRichText-richText"
+                itemprop="articleBody"><b>周健睿-青鸟</b>：要问知名度最高，盈利好的<em>剧本杀</em>类产品，古董局中局肯定是其中之一，凭借原版小说，影视还有原作者马伯庸的知名度，其在<em>剧本杀</em>玩家圈...</span><button
+                type="button" class="Button ContentItem-more Button--plain">阅读全文<span
+                  style="display: inline-flex; align-items: center;">​<svg
+                    class="Zi Zi--ArrowDown ContentItem-arrowIcon" fill="currentColor" viewBox="0 0 24 24" width="24"
+                    height="24">
                     <path
-                      d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"
-                      fill-rule="evenodd"></path>
-                  </svg></span>赞同 394</button><button aria-label="反对" type="button"
-                class="Button VoteButton VoteButton--down VoteButton--mobileDown"><span
-                  style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--TriangleDown"
-                    fill="currentColor" viewBox="0 0 24 24" width="10" height="10">
-                    <path
-                      d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z"
-                      fill-rule="evenodd"></path>
-                  </svg></span></button></span><button type="button"
-              class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span
-                style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--Comment Button-zi"
-                  fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
-                  <path
-                    d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
-                    fill-rule="evenodd"></path>
-                </svg></span>评论 419</button><button type="button"
-              class="Button ContentItem-action Button--plain Button--withIcon Button--iconOnly"><span
-                style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--Star Button-zi"
-                  fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
-                  <path
-                    d="M5.515 19.64l.918-5.355-3.89-3.792c-.926-.902-.639-1.784.64-1.97L8.56 7.74l2.404-4.871c.572-1.16 1.5-1.16 2.072 0L15.44 7.74l5.377.782c1.28.186 1.566 1.068.64 1.97l-3.89 3.793.918 5.354c.219 1.274-.532 1.82-1.676 1.218L12 18.33l-4.808 2.528c-1.145.602-1.896.056-1.677-1.218z"
-                    fill-rule="evenodd"></path>
-                </svg></span></button>
-            <div class="Popover ContentItem-action"><button aria-label="更多" id="Popover2-toggle" aria-haspopup="true"
-                aria-expanded="false" aria-owns="Popover2-content" type="button"
-                class="Button OptionsButton Button--plain Button--withIcon Button--iconOnly"><span
-                  style="display: inline-flex; align-items: center; color: #8590a6;">​<svg class="Zi Zi--Dots Button-zi"
-                    fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
-                    <path
-                      d="M5 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                      d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z"
                       fill-rule="evenodd"></path>
                   </svg></span></button></div>
-          </div>
+            <div class="ContentItem-actions"><span><button aria-label="赞同 122 " type="button"
+                  class="Button VoteButton VoteButton--up"><span
+                    style="display: inline-flex; align-items: center;">​<svg
+                      class="Zi Zi--TriangleUp VoteButton-TriangleUp" fill="currentColor" viewBox="0 0 24 24" width="10"
+                      height="10">
+                      <path
+                        d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"
+                        fill-rule="evenodd"></path>
+                    </svg></span>赞同 122</button><button aria-label="反对" type="button"
+                  class="Button VoteButton VoteButton--down VoteButton--mobileDown"><span
+                    style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--TriangleDown"
+                      fill="currentColor" viewBox="0 0 24 24" width="10" height="10">
+                      <path
+                        d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z"
+                        fill-rule="evenodd"></path>
+                    </svg></span></button></span><button type="button"
+                class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span
+                  style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--Comment Button-zi"
+                    fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+                    <path
+                      d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
+                      fill-rule="evenodd"></path>
+                  </svg></span>评论 76</button></div>
+          </div><img src="https://pic1.zhimg.com/80/v2-add0b8e545d8725a949b238b11f5cccf_xl.jpg?source=4e949a73"
+            class="SearchItem-rightImg">
         </div>
       </div>
     </div>
-  </div>
-  <div class="info-card">
-    <div class="Feed">
-      <div class="answeritem">
-        <h2 class="ContentItem-title">
-          <div itemprop="zhihu:question" itemtype="http://schema.org/Question" itemscope="">
-            <meta itemprop="url" content="https://www.zhihu.com/question/275651808">
-            <meta itemprop="name" content="应届毕业生考公务员好考吗？"><a target="_blank"
-              href="//www.zhihu.com/question/275651808/answer/1243537021" style="color: #121212;">应届毕业生考公务员好考吗？</a>
-          </div>
-        </h2>
-        <div class="RichContent is-collapsed">
-          <div class="RichContent-cover RichContent-cover--mobile">
-            <div class="RichContent-cover-inner"><img
-                src="https://pic4.zhimg.com/50/v2-1f40cfbef7071a370b3909bc250febfd_400x224.jpg" alt="cover"></div>
-          </div>
-          <div class="RichContent-inner"><span class="RichText ztext CopyrightRichText-richText" itemprop="text">径舟：
-              观点：相信题主应该知道今年公考扩招的事情，而且今年对于应届</span><button type="button" class="Button ContentItem-more Button--plain">App 内查看<span
-                style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--ArrowDown ContentItem-arrowIcon"
-                  fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
-                  <path
-                    d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z"
-                    fill-rule="evenodd"></path>
-                </svg></span></button></div>
-          <div class="ContentItem-actions"><span><button aria-label="赞同 394 " type="button"
-                class="Button VoteButton VoteButton--up"><span style="display: inline-flex; align-items: center;">​<svg
-                    class="Zi Zi--TriangleUp VoteButton-TriangleUp" fill="currentColor" viewBox="0 0 24 24" width="10"
-                    height="10">
+
+
+    <div class="Card SearchResult-Card SearchResult-CardWithImage" data-za-detail-view-path-module="PostItem"
+      data-za-detail-view-path-index="2"
+      data-za-extra-module="{&quot;card&quot;:{&quot;content&quot;:{&quot;type&quot;:&quot;Post&quot;,&quot;token&quot;:&quot;50068327&quot;}},&quot;attached_info_bytes&quot;:&quot;OngKC3BsYWNlaG9sZGVyEiBjZTk3MzNhMTY5N2ZiNzU0OWY0NjA1YzYxN2M3NjEyMBgHIggxMDE4NzgxNCoINTAwNjgzMjdKCeWJp+acrOadgFAAWAFgAZgBAKABHqgBALABAbgBANAB8LW53wXYAXrgAUyAAgG4AgA=&quot;}">
+      <div class="List-item" tabindex="0">
+        <div class="ContentItem ArticleItem" itemprop="article">
+          <h2 class="ContentItem-title"><a target="_blank" data-za-detail-view-id="3942"
+              href="//zhuanlan.zhihu.com/p/50068327"><span class="Highlight"><em>剧本杀</em>：一个创业者的大坑</span></a></h2>
+          <div class="RichContent Highlight is-collapsed">
+            <div class="RichContent-inner"><span class="RichText ztext CopyrightRichText-richText"
+                itemprop="articleBody"><b>周健睿-青鸟</b>：要问知名度最高，盈利好的<em>剧本杀</em>类产品，古董局中局肯定是其中之一，凭借原版小说，影视还有原作者马伯庸的知名度，其在<em>剧本杀</em>玩家圈...</span><button
+                type="button" class="Button ContentItem-more Button--plain">阅读全文<span
+                  style="display: inline-flex; align-items: center;">​<svg
+                    class="Zi Zi--ArrowDown ContentItem-arrowIcon" fill="currentColor" viewBox="0 0 24 24" width="24"
+                    height="24">
                     <path
-                      d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"
-                      fill-rule="evenodd"></path>
-                  </svg></span>赞同 394</button><button aria-label="反对" type="button"
-                class="Button VoteButton VoteButton--down VoteButton--mobileDown"><span
-                  style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--TriangleDown"
-                    fill="currentColor" viewBox="0 0 24 24" width="10" height="10">
-                    <path
-                      d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z"
-                      fill-rule="evenodd"></path>
-                  </svg></span></button></span><button type="button"
-              class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span
-                style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--Comment Button-zi"
-                  fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
-                  <path
-                    d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
-                    fill-rule="evenodd"></path>
-                </svg></span>评论 419</button><button type="button"
-              class="Button ContentItem-action Button--plain Button--withIcon Button--iconOnly"><span
-                style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--Star Button-zi"
-                  fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
-                  <path
-                    d="M5.515 19.64l.918-5.355-3.89-3.792c-.926-.902-.639-1.784.64-1.97L8.56 7.74l2.404-4.871c.572-1.16 1.5-1.16 2.072 0L15.44 7.74l5.377.782c1.28.186 1.566 1.068.64 1.97l-3.89 3.793.918 5.354c.219 1.274-.532 1.82-1.676 1.218L12 18.33l-4.808 2.528c-1.145.602-1.896.056-1.677-1.218z"
-                    fill-rule="evenodd"></path>
-                </svg></span></button>
-            <div class="Popover ContentItem-action"><button aria-label="更多" id="Popover2-toggle" aria-haspopup="true"
-                aria-expanded="false" aria-owns="Popover2-content" type="button"
-                class="Button OptionsButton Button--plain Button--withIcon Button--iconOnly"><span
-                  style="display: inline-flex; align-items: center; color: #8590a6;">​<svg class="Zi Zi--Dots Button-zi"
-                    fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
-                    <path
-                      d="M5 14a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                      d="M12 13L8.285 9.218a.758.758 0 0 0-1.064 0 .738.738 0 0 0 0 1.052l4.249 4.512a.758.758 0 0 0 1.064 0l4.246-4.512a.738.738 0 0 0 0-1.052.757.757 0 0 0-1.063 0L12.002 13z"
                       fill-rule="evenodd"></path>
                   </svg></span></button></div>
-          </div>
+            <div class="ContentItem-actions"><span><button aria-label="赞同 122 " type="button"
+                  class="Button VoteButton VoteButton--up"><span
+                    style="display: inline-flex; align-items: center;">​<svg
+                      class="Zi Zi--TriangleUp VoteButton-TriangleUp" fill="currentColor" viewBox="0 0 24 24" width="10"
+                      height="10">
+                      <path
+                        d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"
+                        fill-rule="evenodd"></path>
+                    </svg></span>赞同 122</button><button aria-label="反对" type="button"
+                  class="Button VoteButton VoteButton--down VoteButton--mobileDown"><span
+                    style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--TriangleDown"
+                      fill="currentColor" viewBox="0 0 24 24" width="10" height="10">
+                      <path
+                        d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z"
+                        fill-rule="evenodd"></path>
+                    </svg></span></button></span><button type="button"
+                class="Button ContentItem-action Button--plain Button--withIcon Button--withLabel"><span
+                  style="display: inline-flex; align-items: center;">​<svg class="Zi Zi--Comment Button-zi"
+                    fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+                    <path
+                      d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"
+                      fill-rule="evenodd"></path>
+                  </svg></span>评论 76</button></div>
+          </div><img src="https://pic1.zhimg.com/80/v2-add0b8e545d8725a949b238b11f5cccf_xl.jpg?source=4e949a73"
+            class="SearchItem-rightImg">
         </div>
       </div>
     </div>
+
   </div>
-</div>
 
 
 

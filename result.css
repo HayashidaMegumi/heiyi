@@ -1,0 +1,299 @@
+.SearchTab-bottomShadow {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+background-color: #fff;
+padding-top: 2px;
+box-shadow: 0 1px 3px rgba(18,18,18,.1);
+width: 100vw;
+overflow-x: scroll;
+white-space: nowrap;
+}
+
+.SearchTabs-inner {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+white-space: nowrap;
+margin: 0 auto;
+display: flex;
+-webkit-box-pack: justify;
+justify-content: space-between;
+width: 100vw;
+}
+
+.SearchTabs-actions {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+white-space: nowrap;
+display: flex;
+-webkit-box-pack: justify;
+justify-content: space-between;
+flex-shrink: 0;
+-webkit-box-align: center;
+align-items: center;
+width: 100vw;
+}
+
+.Tabs {font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 16px;
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+    color: #121212;
+    -webkit-box-direction: normal;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    border-bottom: 0;}
+
+.Tabs-item {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+white-space: nowrap;
+list-style-type: none;
+display: inline-block;
+padding: 0 12px;
+}
+
+.Tabs-link {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+white-space: nowrap;
+list-style-type: none;
+text-decoration: none;
+position: relative;
+display: inline-block;
+padding: 14px 0;
+line-height: 22px;
+text-align: center;
+font-size: 15px;
+color: #999;
+font-weight: 500;
+}
+.is-active {
+    color: #121212;
+}
+
+.SearchResult-CardWithImage {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+background: #fff;
+box-sizing: border-box;
+box-shadow: none;
+margin-bottom: 12px;
+overflow: initial;
+padding-top: 4px;
+border-radius: 0;
+border-width: 1px 0;
+}
+
+.List-item {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+position: relative;
+padding: 10px;
+}
+
+.ContentItem {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+position: relative;
+}
+
+.ContentItem-title {
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+margin: 0;
+font: inherit;
+color: #121212;
+line-height: 1.4;
+margin-bottom: 0;
+font-size: 16px;
+margin-top: 0;
+font-weight: 500;
+}
+
+.Highlight {
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+font: inherit;
+line-height: 1.4;
+font-size: 16px;
+font-weight: 500;
+color: inherit;
+}
+
+.RichContent {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+line-height: 1.67;
+}
+
+.RichContent-inner {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+overflow: hidden;
+width: calc(100% - 100px);
+margin-bottom: 2px;
+margin-top: 5px;
+line-height: 20px;
+max-height: 55px;
+position: relative;
+font-size: 14px;
+}
+
+.RichText {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+font-size: 14px;
+word-break: break-word;
+line-height: 1.6;
+height: 44px;
+display: -webkit-box;
+text-overflow: ellipsis;
+overflow: hidden;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+white-space: normal;
+}
+
+em {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+font-size: 14px;
+word-break: break-word;
+line-height: 1.6;
+white-space: normal;
+font-style: normal;
+color: #f1403c;
+}
+
+.ContentItem-more {
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+font: inherit;
+outline: none;
+appearance: none;
+margin: 0;
+text-align: center;
+cursor: pointer;
+border: none;
+border-radius: 0;
+padding: 0;
+margin-left: 4px;
+color: #175199;
+display: none;
+position: absolute;
+bottom: 0;
+right: 0;
+background: #fff;
+z-index: 0;
+height: 25px;
+line-height: 1;
+font-size: inherit;
+}
+
+.ContentItem-actions {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+line-height: 1.67;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+padding: 10px 16px;
+margin: 0 -10px -10px;
+color: #646464;
+background: #fff;
+clear: both;
+height: 40px;
+padding-bottom: 6px;
+padding-top: 3.5px;
+font-weight: 500;
+}
+
+.ContentItem-action {
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+font: inherit;
+outline: none;
+appearance: none;
+margin: 0;
+display: inline-block;
+text-align: center;
+cursor: pointer;
+background: none;
+color: #8590a6;
+height: auto;
+line-height: inherit;
+background-color: transparent;
+border: none;
+border-radius: 0;
+flex-shrink: 0;
+font-size: 14px;
+padding: 0;
+padding-left: 12px;
+margin-left: 4px;
+}
+
+.Zi--Comment {
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+-webkit-box-direction: normal;
+font: inherit;
+text-align: center;
+cursor: pointer;
+color: #8590a6;
+line-height: inherit;
+font-size: 14px;
+fill: currentcolor;
+width: 1.2em;
+height: 1.2em;
+margin-right: 4px;
+}
+
+.SearchItem-rightImg {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+font-size: 16px;
+-webkit-tap-highlight-color: rgba(18,18,18,0);
+color: #121212;
+-webkit-box-direction: normal;
+width: 105px;
+height: 70px;
+border-radius: 3px;
+position: absolute;
+bottom: 21px;
+object-fit: cover;
+right: 0;
+}
+
+a {
+    color: #121212;
+}
